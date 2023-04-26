@@ -1,15 +1,14 @@
 #include "main.h"
 /**
- * main - check the code
- *
+ * _isalpha - Checks for alphabetic order
  * @c: alpabet to check for
- *
  * Return: 1 if c is a letter, 0 otherwise
  */
 
 int _isalpha(int c)
 {
-	return ((c >= 'b' && c <= 'h') || (c >= 'B' && c <= 'H'));
+	return ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'));
+
 
 }
 
